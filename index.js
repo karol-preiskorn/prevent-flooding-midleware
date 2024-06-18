@@ -2,6 +2,7 @@ const express = require("express")
 const { rateLimit } = require("express-rate-limit")
 const { Request, Response } = require("express")
 const morgan = require("morgan")
+const helmet = require("helmet")
 
 morgan.token("requester", function getRequester(req) {
   return JSON.stringify(req.requester)
@@ -42,6 +43,8 @@ const port = process.env.PORT || 3000
 
 // initialize an Express server
 const app = express()
+
+app.use(helmet())
 
 const limit = {
   windowMs: 5 * 60 * 1000, // 5 minutes
