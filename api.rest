@@ -1,0 +1,9 @@
+###
+
+GET http://localhost:3000/rest HTTP/1.1
+content-type: application/json
+
+{
+    "c_sec_system_id": "sample3"
+}
+ 

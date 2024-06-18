@@ -1,0 +1,12 @@
+{
+  "workbench.colorCustomizations": {
+    "titleBar.inactiveBackground": "#880000", // Darker orange
+    "titleBar.inactiveForeground": "#999999", // Light gray
+    "activityBar.foreground": "#999999", // Light gray
+    "statusBar.background": "#880000", // Darker orange
+    "statusBar.foreground": "#ccc", // Light gray
+    "statusBar.debuggingBackground": "#880000", // Darker orange
+    "statusBar.debuggingForeground": "#999999", // Light gray
+    "tab.activeBorder": "#660000", // Darker red
+  }
+}
